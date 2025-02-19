@@ -16,7 +16,8 @@ public class NotesStudents {
             opc = Integer.parseInt(JOptionPane.showInputDialog(
                     "1. Registrar\n2. Listar\n"
                     + "3. Mostrar estudiantes con nota mayor a 3\n"
-                    + "4. Salir\nSeleccionar una opción"));
+                    + "4. Consultar estudiante\n"
+                    + "5. Salir\nSeleccionar una opción"));
             switch (opc) {
                 case 1:
                     if (i >= listStudent.length) {

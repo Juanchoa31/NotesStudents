@@ -5,8 +5,7 @@ public class Student {
     private int age;
     private double note;
 
-    public Student() {
-    }
+    public Student() {}
 
     public Student(String code, String name, int age, double note) {
         this.code = code;
@@ -51,6 +50,4 @@ public class Student {
     public String toString() {
         return "Student{" + "code=" + code + ", name=" + name + ", age=" + age + ", note=" + note + '}';
     }
-   
-    
 }
