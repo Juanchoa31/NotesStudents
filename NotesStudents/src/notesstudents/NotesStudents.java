@@ -14,7 +14,8 @@ public class NotesStudents {
 
         do {
             opc = Integer.parseInt(JOptionPane.showInputDialog(
-                    "1. Registrar\n2. Listar\n"
+                      "1. Registrar\n"
+                    + "2. Listar\n"
                     + "3. Mostrar estudiantes con nota mayor a 3\n"
                     + "4. Consultar estudiante\n"
                     + "5. Salir\nSeleccionar una opción"));
@@ -67,6 +68,6 @@ public class NotesStudents {
                 default:
                     JOptionPane.showMessageDialog(null, "Opción no válida");
             }
-        } while (opc != 4);
+        } while (opc != 5);
     }
 }
